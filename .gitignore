@@ -1,0 +1,17 @@
+# Dependencies and build output
+**/node_modules/
+**/dist/
+**/build/
+
+# Environment and local secrets
+**/.env
+**/.env.*
+!.env.example
+
+# Logs and local tooling
+**/*.log
+.DS_Store
+.vscode/
+**/.vscode/
+**/.idea/
+**/*.tsbuildinfo
